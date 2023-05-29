@@ -30,6 +30,8 @@ To deploy the application locally:
 4. Create a virtual environment and Run the app using the command: **streamlit run test.py**.
 
 The web app contains a Home page with description about the project and a predict option which leads to a page where the image should be uploaded.Then our model detects the equation and predicts the output of uploaded_file.
+Link to the website: https://om-sri-handwritten-matheq-solver-test-b1dffu.streamlit.app/
+
 ![image](https://github.com/om-sri/Handwritten_MathEq_Solver/assets/81167782/01eaf6bc-c046-43dd-8e81-529c2b1fef91)
 
 
