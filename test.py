@@ -149,4 +149,4 @@ elif app_mode == "Feedback":
         st.success("Thank you for your feedback! We will review it.")
 
 # Optionally, you can add a link to a support email
-st.sidebar.markdown("[Contact Support](mailto:omsrirao14@gmail.com)")
+# st.sidebar.markdown("[Contact Support](mailto:omsrirao14@gmail.com)")
