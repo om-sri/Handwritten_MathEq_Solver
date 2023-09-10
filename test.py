@@ -17,7 +17,7 @@ loaded_model.load_weights("model_final.h5")
 
 
 train_data=[]
-app_mode = st.sidebar.selectbox('Select Page',['Home','Predict'])
+app_mode = st.sidebar.selectbox('Select Page',['Home','Predict','Feedback'])
 
 if app_mode=='Home':
     st.title('Hand written Math equation solver')
