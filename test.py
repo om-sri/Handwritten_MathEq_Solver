@@ -134,3 +134,19 @@ elif app_mode == 'Predict':
 
         else:
             st.write('Please upload an Image')
+
+elif app_mode == "Feedback":
+    st.title("Feedback and Issue Reporting")
+
+    # Create a text area for users to enter feedback or report issues
+    feedback_text = st.text_area("Enter your feedback or report an issue:")
+
+    # Create a button to submit feedback
+    if st.button("Submit Feedback"):
+        # You can handle the feedback submission here
+        # For example, you can send the feedback to an email address or a database
+        # You may also want to display a confirmation message
+        st.success("Thank you for your feedback! We will review it.")
+
+# Optionally, you can add a link to a support email
+st.sidebar.markdown("[Contact Support](mailto:omsrirao14@gmail.com)")
